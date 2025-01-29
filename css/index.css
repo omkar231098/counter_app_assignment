@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #ffffff;
+ 
+}
+
+#Counterbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+}
+
+#counter {
+    font-size: 5em;
+    margin: 20px;
+}
+
+button {
+    font-size: 1.2em;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#Increment, #Decrement {
+    background-color: blue;
+    color: white;
+}
+
+#Increment:hover, #Decrement:hover {
+    background-color: darkblue;
+}
+
+#Reset {
+    background-color: red;
+    color: white;
+}
+
+
+#autoBtn {
+    background-color: rgb(225, 255, 0);
+    color: black;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+#btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+}
+
+#btns1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+    #counter {
+        font-size: 3em;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+   
+}
